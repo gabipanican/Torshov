@@ -1,0 +1,115 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    color: #1D3557;
+    text-align: center;
+    background: linear-gradient(#457B9D,#A8DADC);
+}
+
+.act-title{
+    margin: 22px;
+}
+img {
+    width: 100px;
+}
+.act-img{
+    border-radius: 50%;
+}
+#act-title{
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 55px;
+    
+}
+.activities{
+    display: flex;
+}
+.act{
+width: 200px;
+margin: 20px auto;
+}
+#act-section{
+    height: 400px;
+}
+
+
+/*hero section*/
+#hero{  
+    background: url("images/torshov.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+#title{
+    color: whitesmoke;
+    text-shadow: 0 0 1px black;
+    background-color: #1D3557;
+    border-radius: 12px;
+    font-size: 32px;
+    padding: 3px 12px;
+
+}
+#hero-text{
+    border-radius: 12px;
+    background-color: #457B9D;
+    color: whitesmoke;
+    margin-top: 10px;
+    width: 400px;
+    font-size: 18px;
+}
+
+
+/*guide section*/
+
+#avatar{
+    width: 200px;
+    border-radius: 20px;
+    
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+#card{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px auto;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+}
+
+.new-section:hover{
+    background-image: url("images/tarshov.jpeg");
+}
+.new-section{
+    margin: 20px auto;
+    max-width: 6 b00px;
+    height: 400px;
+    border: 6px solid #A8DADC;
+    border-radius: 10px;
+    background-image: url("images/oslo.jpeg");
+    background-size: cover;
+    color: whitesmoke;
+    text-shadow: 0 0 2px black;
+}
